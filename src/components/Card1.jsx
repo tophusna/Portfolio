@@ -22,7 +22,7 @@ const Card1 = () => {
       <div class="p-5">
         <a href="helo">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
+            Knight MMO Game
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">

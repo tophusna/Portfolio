@@ -112,16 +112,16 @@ const Contact = () => {
               href="hello"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
-              aakash.sh858791@gmail.com
+              husnakormokers@gmail.com
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
               href="hello"
               className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
             >
-              Jhilmil Colony, Delhi
+              Persiaran Kayangan, Seksyen 7, Shah Alam,
               <br />
-              India
+              Malaysia
             </a>
             <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">
@@ -147,7 +147,7 @@ const Contact = () => {
       >
         Made with
         <div className="text-red-500 px-2 text-2xl">&#10084;</div>
-        by Aakash Sharma
+        by Citi Rahimah
       </div>
     </div>
   );
