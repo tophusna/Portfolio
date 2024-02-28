@@ -100,13 +100,13 @@ const Contact = () => {
             </form>
           </div>
           <div className="w-full flex flex-col md:items-end  mt-12 md:mt-6">
-            {/* <h1 className="text-3xl font-bold">Phone</h1>
+            <h1 className="text-3xl font-bold">Phone</h1>
             <a
               href="hello"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
-              +91 8285631499
-            </a> */}
+              +1 909 654 7095
+            </a>
             <h1 className="text-3xl font-bold">Email</h1>
             <a
               href="hello"

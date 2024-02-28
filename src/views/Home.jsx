@@ -8,6 +8,7 @@ import { Link } from "react-scroll";
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
 import hero from "../assets/hero.png"
+import Resume from "../assets/Resume.pdf"
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -75,7 +76,7 @@ const Home = () => {
                   Resume
                 </Link> */}
                 <a
-                  href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+                  href={Resume}
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
                 >
                   Resume
