@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import som from "../assets/ad.PNG"
 
 const Card2 = () => {
   return (
@@ -15,19 +16,21 @@ const Card2 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+          // src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+          src={som}
           alt=""
         />
       </a>
       <div class="p-5">
         <a href="helo">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
+            Education MMO program
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+        This is an educational program by using Unity that cooperates and performs tasks in virtual reality.
+        For education, physical effects were made to match reality, 
+        and it is widely accepted in secondary schools as it increases students' cognitive effectiveness and saves costs in education.
         </p>
         <a
           href="hello"

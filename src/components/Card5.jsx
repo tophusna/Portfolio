@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import admin from "../assets/admin.PNG"
 
 const Card5 = () => {
   return (
@@ -15,19 +16,19 @@ const Card5 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+          src={admin}
           alt=""
         />
       </a>
       <div class="p-5">
         <a href="helo">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
+          Ci4sampleapp
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+        This project is an internal management site that reflects university work.
+        I developed this project using Laravel Framework, and it is currently being adopted and widely used at the university.
         </p>
         <a
           href="hello"

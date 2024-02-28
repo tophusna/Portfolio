@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import city from "../assets/home.PNG"
 
 const Card3 = () => {
   return (
@@ -15,19 +16,21 @@ const Card3 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+          src={city}
           alt=""
         />
       </a>
       <div class="p-5">
         <a href="helo">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
+            City Jabber
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+        This site can optimally search for the locations of all volunteer units, 
+        including major hotels and restaurants in the United States, and made reservations for the relevant services.
+        And admin can select city owner that can manage specified city by business owner site.
+        Admin can also handle all business to serve in admin site.
         </p>
         <a
           href="hello"

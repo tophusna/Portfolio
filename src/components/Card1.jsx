@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import knight from "../assets/homePage.PNG";
 
 const Card1 = () => {
   return (
@@ -15,7 +16,8 @@ const Card1 = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+          // src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+          src={knight}
           alt=""
         />
       </a>
@@ -26,8 +28,8 @@ const Card1 = () => {
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+          This is a Massively Multiplayer Online game in which multiple knights cooperate or fight against each other to expand their territory.
+          It is gaining great popularity among customers as it adds many features that arouse the interest of game users, including levels, item updates, and experience points.
         </p>
         <a
           href="hello"
